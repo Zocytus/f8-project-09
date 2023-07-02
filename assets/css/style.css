@@ -478,12 +478,12 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 2px;
+    column-gap: 5px;
 }
 .dot {
-    width: 2px;
-    height: 2px;
-    background: #838386;
+    width: 6px;
+    height: 6px;
+    background: #a8a8a9;
     border-radius: 50%;
 }
 .task-list__header-top {
@@ -660,7 +660,7 @@ a {
 }
 /* Service */
 .service {
-    margin-top: 286px;
+    margin: 286px 0 140px 0;
 }
 .service__inner {
     position: relative;
@@ -710,4 +710,114 @@ a {
 }
 .service__line:nth-child(2) {
     right: 24%;
+}
+/* Daily Task */
+.daily-task {
+    display: flex;
+    margin: auto;
+    width: 1161.254px;
+    height: 525px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.daily-task__inner {
+    position: relative;
+}
+.daily-task__content {
+    width: 537px;
+}
+.top__title {
+    width: 368px;
+    color: #f9f9f9;
+    font-size: 4rem;
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.text-color {
+    background: linear-gradient(to right, #eb9204 -34%, #83e868 116%);
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    font: inherit;
+}
+.top__desc {
+    margin-top: 22px;
+    color: #858b93;
+    font-size: 1.6rem;
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.content__desc {
+    position: relative;
+    margin-top: 86px;
+    display: flex;
+    column-gap: 17px;
+}
+.desc-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 16px;
+    width: 132px;
+    height: 127px;
+    border-radius: 9px;
+    background: #272633;
+}
+.desc-item__active {
+    margin-top: 38px;
+    color: #f9f9f9;
+    background: linear-gradient(
+        191deg,
+        #c4f566 7.35%,
+        #ae8ef9 28.41%,
+        #ef8f00 60.81%,
+        #61e559 100%
+    );
+}
+.desc-item__active .count__desc {
+    color: #f9f9f9;
+}
+.count {
+    color: #f9f9f9;
+    font-size: 3rem;
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.count__desc {
+    color: #858b93;
+    font-size: 1.6rem;
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.dot-list {
+    position: absolute;
+    display: flex;
+    column-gap: 5px;
+    left: 38%;
+}
+.dot {
+    cursor: pointer;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+}
+.dot-active {
+    background-color: #ef8f00;
+}
+.task__daily {
+    height: 525px;
+    position: absolute;
+    z-index: -1;
+    top: -4.3%;
+    right: -4.4%;
 }
