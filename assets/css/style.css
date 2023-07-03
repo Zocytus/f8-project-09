@@ -821,3 +821,131 @@ a {
     top: -4.3%;
     right: -4.4%;
 }
+/* Feature */
+.feature {
+    margin-top: 140px;
+    background: #0f1011;
+}
+.feature__inner {
+    height: 657px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+}
+.feature__img-left {
+    width: 489px;
+    height: 440px;
+}
+.feature-content__list {
+    width: 84%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 40px;
+    margin-left: 46px;
+}
+.content__check-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 7px;
+    width: 20px;
+    height: 20px;
+    background-color: #0cce84;
+    left: -20%;
+    top: -16%;
+}
+.content__check-box-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 7px;
+    width: 20px;
+    height: 20px;
+    background-color: #ef8f00;
+    left: -20%;
+    top: -16%;
+}
+.content__check-box-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 7px;
+    width: 20px;
+    height: 20px;
+    background-color: #ae8ff9;
+    left: -20%;
+    top: -16%;
+}
+.content__check-box-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 7px;
+    width: 20px;
+    height: 20px;
+    background-color: #ff7667;
+    left: -20%;
+    top: -16%;
+}
+.feature-content__heading {
+    width: 400px;
+    margin-bottom: 50px;
+    color: #f9f9f9;
+    font-weight: 600;
+    font-size: 4rem;
+}
+.content-item__title {
+    position: relative;
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 0.6;
+    color: #f9f9f9;
+}
+.content-item__desc {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    color: #858b93;
+}
+/* About */
+.about__inner {
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about__title {
+    text-align: center;
+    width: 497px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 1.1;
+    color: #f9f9f9;
+}
+.about__desc {
+    text-align: center;
+    font-weight: 400;
+    width: 700px;
+    margin-bottom: 40px;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #858b93;
+}
+.about__all-btn {
+    width: 916px;
+    height: 46px;
+    margin-bottom: 40px;
+}
+.about__task {
+    width: 1096px;
+    height: 422px;
+}
