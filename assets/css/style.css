@@ -1302,3 +1302,116 @@ a {
 .customer__rate {
     margin-bottom: 10px;
 }
+/* Footer */
+.footer {
+    margin-top: 228px;
+    height: 587px;
+    background: linear-gradient(0deg, #0d1012 0%, #0d1012 100%),
+        url(<path-to-image>), lightgray 0px -10.201px / 100% 136.014% no-repeat;
+}
+.footer__top {
+    justify-content: space-between;
+    margin-top: 67px;
+    display: inline-flex;
+    width: 1096px;
+    height: 92px;
+    border-bottom: 1px solid #272633;
+}
+.footer__logo {
+    width: 149.621px;
+    height: 31.406px;
+}
+.footer__started {
+    display: flex;
+    column-gap: 54px;
+}
+.started__title {
+    margin-top: 7px;
+    color: var(--text-color-gray-1, #858b93);
+    /* Heading/H4 heading 22px */
+    font-family: Sora;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+.started__btn {
+    color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 165px;
+    height: 55px;
+    border-radius: 9px;
+    background: linear-gradient(90deg, #eb9204 1.67%, #83e868 89.99%);
+}
+.footer__bottom {
+    margin-top: 70px;
+    display: flex;
+    column-gap: 154px;
+}
+.bottom-left__title {
+    color: #f9f9f9;
+    font-family: Sora;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+.bottom-left__form {
+    margin-top: 44px;
+    position: relative;
+}
+.bottom-left__email {
+    padding: 0 25px;
+    outline: none;
+    color: #f9f9f9;
+    width: 307px;
+    height: 51px;
+    border-radius: 26px;
+    border: 1px solid var(--text-color-dark-blue, #272633);
+    background-color: #0d1012;
+}
+.bottom-left__email:placeholder-shown {
+    color: var(--text-color-gray-1, #858b93);
+    font-family: Sora;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.bottom-right {
+    display: flex;
+    width: 482px;
+    justify-content: space-between;
+}
+.email-btn {
+    position: absolute;
+    top: 14%;
+    right: 4%;
+    cursor: pointer;
+}
+.bottom-left__social {
+    margin-top: 45px;
+}
+.bottom-right__item-title {
+    cursor: pointer;
+    margin-bottom: 22px;
+    color: var(--text-color-white, #f9f9f9);
+    /* Heading/H4 heading 22px */
+    font-family: Sora;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+.bottom-right__item {
+    cursor: pointer;
+    color: #858b93;
+    font-family: Sora;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    opacity: 0.6;
+}
