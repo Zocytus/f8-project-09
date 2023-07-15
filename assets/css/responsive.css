@@ -5,7 +5,8 @@
     .header__task-mobile,
     .about__all-btn-list,
     .btn-explore-mobile,
-    .testimonials__title {
+    .testimonials__title,
+    .footer__logo-mobile {
         display: none;
     }
 }
@@ -50,6 +51,10 @@
     }
     .daily-task__content {
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     .content__top {
         width: auto;
@@ -73,6 +78,7 @@
     }
     .hero {
         position: relative;
+        justify-content: center;
     }
     .ellipse-deco__mobile {
         position: absolute;
@@ -92,7 +98,7 @@
         display: none;
     }
     .header__task-mobile {
-        margin-top: 82px;
+        margin: 82px auto auto auto;
         width: 323px;
         height: 159px;
     }
@@ -100,6 +106,7 @@
         margin-top: 80px;
     }
     .service__inner {
+        margin: auto;
         flex-direction: column;
         width: 319px;
         height: 820px;
@@ -137,7 +144,8 @@
         height: 98px;
     }
     .dot-list {
-        left: 27%;
+        left: 46%;
+        top: 11%;
     }
     .feature {
         margin-top: 325px;
@@ -214,6 +222,12 @@
     }
     .explore-content {
         width: auto;
+    }
+    .explore-content__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .explore-content__title {
         font-size: 30px;
@@ -372,5 +386,9 @@
     }
     .email-btn {
         right: 8%;
+    }
+    .footer__logo-mobile {
+        margin: auto;
+        margin-top: 60px;
     }
 }
