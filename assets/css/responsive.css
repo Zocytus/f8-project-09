@@ -168,10 +168,12 @@
         margin-top: 25px;
     }
     .feature-content__heading {
+        text-align: center;
         font-size: 3rem;
-        width: 235px;
+        width: auto;
     }
     .feature-content__list {
+        width: 62%;
         display: flex;
         margin-left: 61px;
         flex-direction: column;
@@ -230,9 +232,10 @@
         align-items: center;
     }
     .explore-content__title {
+        text-align: center;
         font-size: 30px;
         font-weight: 600;
-        width: 325px;
+        width: auto;
         margin-bottom: 32px;
     }
     .explore-content__item {
@@ -385,10 +388,30 @@
         display: none;
     }
     .email-btn {
-        right: 8%;
+        right: 2%;
     }
     .footer__logo-mobile {
         margin: auto;
         margin-top: 60px;
+    }
+    .content__check-box {
+        left: -16%;
+        top: -54%;
+    }
+    .content__check-box-1 {
+        left: -16%;
+        top: -59%;
+    }
+    .content__check-box-2 {
+        left: -15%;
+        top: -66%;
+    }
+    .content__check-box-3 {
+        left: -14%;
+        top: -70%;
+    }
+    .bottom-left__email {
+        width: 100%;
+        padding: 0 10px 0 25px;
     }
 }
